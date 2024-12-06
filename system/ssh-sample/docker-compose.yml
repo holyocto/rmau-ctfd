@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  rmau-ssh-sample:
+    build: .
+    image: "rmau-ssh-sample"
+    restart: always
+    ports: 
+      - "7302:22"
